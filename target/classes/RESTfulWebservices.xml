@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESTfulWebservices Suite">
+  <test thread-count="5" name="RESTfulWebservices Test Execution">
+    <classes>
+      <class name="com.qa.Webservices.TestCases.TC01_getRequestResponseRESTfulWebService"/>
+      <class name="com.qa.Webservices.TestCases.TC02_psotRequestResponseRESTfulWebService"/>
+    </classes>
+  </test> 
+</suite> 
